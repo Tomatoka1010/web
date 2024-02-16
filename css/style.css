@@ -1,0 +1,103 @@
+@charset "utf-8";
+@import url("supermarket/stylesheet.css");
+
+.phone {
+    display: none;
+    font-family: supermarket;
+    text-align: right;
+}
+.menu a  {
+    font-family: supermarket;
+    text-align: right;
+    color: #FF9E00;
+}
+.menu {
+    text-align: right;
+}
+
+
+.webname-th {
+}
+body {
+    background-color: #0076CD;
+    background-image: url(../images/BG.jpg);
+}
+.banner img {
+    width: 100%;
+}
+main {
+    border: 7px solid #64BDEF;
+    background-color: #FFFFFF;
+}
+.btn-sky {
+    background-color: #00ABFF;
+    color: #FFFFFF;
+}
+.x1 {
+    -webkit-box-shadow: 5px 5px 20px #AFAFAF;
+    box-shadow: 5px 5px 20px #AFAFAF;
+    border: 3px solid #FFFFFF;
+}
+.product img {
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    -webkit-box-shadow: 1px 1px 5px 0px #2B2B2B;
+    box-shadow: 1px 1px 5px 0px #2B2B2B;
+
+
+}
+.product {
+    background-color: #f5f4f0;
+}
+.banner {
+    padding-top: 0px ;
+    padding-right: 0px!important;
+    padding-bottom: 0px;
+    padding-left: 0px!important;
+}
+form label {
+    font-family: supermarket;
+}
+h2 {
+    font-family: supermarket;
+}
+p {
+    font-family: supermarket;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:768px){
+.phone {
+    display: block;
+}
+
+}
+
+@media (min-width:992px){
+.phone {
+    font-family: supermarket;
+    font-size: 1.3rem;
+    text-align: right;
+}
+.menu  {
+    font-family: supermarket;
+    text-align: right;
+	font-size: 1.3rem;
+}
+
+
+}
